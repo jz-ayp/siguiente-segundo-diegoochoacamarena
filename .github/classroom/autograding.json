@@ -1,0 +1,274 @@
+{
+  "tests": [
+    {
+      "name": "Test01",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n0\r\n0",
+      "output": "0(\n|.)*0(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test02",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n0\r\n44",
+      "output": "0(\n|.)*0(\n|.)*45",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test03",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n0\r\n59",
+      "output": "0(\n|.)*1(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test04",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n19\r\n0",
+      "output": "0(\n|.)*19(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test05",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n19\r\n12",
+      "output": "0(\n|.)*19(\n|.)*13",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test06",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n19\r\n59",
+      "output": "0(\n|.)*20(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test07",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n59\r\n0",
+      "output": "0(\n|.)*59(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test08",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n59\r\n15",
+      "output": "0(\n|.)*59(\n|.)*16",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test09",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "0\r\n59\r\n59",
+      "output": "1(\n|.)*0(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n0\r\n0",
+      "output": "6(\n|.)*0(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test11",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n0\r\n41",
+      "output": "6(\n|.)*0(\n|.)*42",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test12",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n0\r\n59",
+      "output": "6(\n|.)*1(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test13",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n22\r\n0",
+      "output": "6(\n|.)*22(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test14",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n22\r\n40",
+      "output": "6(\n|.)*22(\n|.)*41",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test15",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n22\r\n59",
+      "output": "6(\n|.)*23(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test16",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n59\r\n0",
+      "output": "6(\n|.)*59(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test17",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n59\r\n39",
+      "output": "6(\n|.)*59(\n|.)*40",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test18",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "6\r\n59\r\n59",
+      "output": "7(\n|.)*0(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test19",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n0\r\n0",
+      "output": "23(\n|.)*0(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test20",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n0\r\n9",
+      "output": "23(\n|.)*0(\n|.)*10",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test21",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n0\r\n59",
+      "output": "23(\n|.)*1(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test22",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n21\r\n0",
+      "output": "23(\n|.)*21(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test23",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n21\r\n52",
+      "output": "23(\n|.)*21(\n|.)*53",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test24",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n21\r\n59",
+      "output": "23(\n|.)*22(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test25",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n59\r\n0",
+      "output": "23(\n|.)*59(\n|.)*1",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test26",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n59\r\n11",
+      "output": "23(\n|.)*59(\n|.)*12",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test27",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 segundo_siguiente.py",
+      "input": "23\r\n59\r\n59",
+      "output": "0(\n|.)*0(\n|.)*0",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
